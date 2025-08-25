@@ -1,0 +1,31 @@
+[
+    {
+        "protocol": "TCP",
+        "source_ip": "192.168.1.0/24",
+        "destination_port": 80,
+        "action": "allow"
+    },
+    {
+        "protocol": "TCP",
+        "source_ip": "0.0.0.0/0",
+        "destination_port": 22,
+        "action": "deny"
+    },
+    {
+        "protocol": "UDP",
+        "source_ip": "192.168.1.100",
+        "destination_port": 53,
+        "action": "allow"
+    },
+    {
+        "protocol": "ICMP",
+        "source_ip": "192.168.1.0/24",
+        "action": "allow"
+    },
+    {
+        "protocol": "TCP",
+        "source_ip": "0.0.0.0/0",
+        "destination_port": 443,
+        "action": "allow"
+    }
+]

@@ -1,0 +1,9 @@
+network:
+  interface: 'Ethernet'  # Change this to your active network interface name
+  ip_address: '192.168.1.10'
+  subnet_mask: '255.255.255.0'
+  gateway: '192.168.1.1'
+
+logging:
+  level: 'INFO'  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_file: 'logs/firewall_activity.log'
